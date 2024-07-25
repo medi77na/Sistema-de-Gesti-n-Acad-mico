@@ -16,5 +16,6 @@ namespace entregable_04.Interfaces
         DateOnly BirthDate { get; set; }
         string Email { get; set; }
         string PhoneNumber { get; set; }
+        int CalculateAge();
     }
 }

@@ -49,5 +49,10 @@ namespace entregable_04.Models
         {
             return $"Id: {Id}, Nombre: {Name} {LastName}, Tipo Documento: {DocumentType}, Documento: {NumberDocument}, Fecha de Nacimiento: {BirthDate}, Correo: {Email}, Teléfono: {PhoneNumber}";
         }
+
+        public int CalculateAge()
+        {
+            return 0;
+        }
     }
 }
