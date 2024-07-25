@@ -1,6 +1,6 @@
 namespace entregable_04.Enums
 {
-    public enum TipoDocumento
+    public enum TypeDocument
     {
         CC,
         TI,
