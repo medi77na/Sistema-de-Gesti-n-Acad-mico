@@ -12,10 +12,10 @@ namespace entregable_04.Models
         //Attributes
         private double salary { get; set; }
         public DateOnly HiringDate { get; set; }
-        public List<Subjects>? SubjectsList { get; set; }
+        public List<Subject>? SubjectsList { get; set; }
 
         //Constructor
-        public Teacher(string name, string lastName, TypeDocument documentType, string? numberDocument, DateOnly birthDate, string? email, string? phoneNumber, string? guardianName, double salary,DateOnly hiringDate, List<Subjects>? subjectsList)
+        public Teacher(string name, string lastName, TypeDocument documentType, string? numberDocument, DateOnly birthDate, string? email, string? phoneNumber, string? guardianName, double salary,DateOnly hiringDate, List<Subject>? subjectsList)
             : base(name, lastName, documentType, numberDocument, birthDate, email, phoneNumber)
         {
             Salary = salary;

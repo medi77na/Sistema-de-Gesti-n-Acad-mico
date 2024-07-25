@@ -11,7 +11,7 @@ namespace entregable_04.Interfaces
         // Propiedades
         double Salary { get; set; }
         DateOnly HiringDate { get; set; }
-        List<Subjects> SubjectsList { get; set; }
+        List<Subject> SubjectsList { get; set; }
 
         double CalculateSeniority();
         double GetSalary();

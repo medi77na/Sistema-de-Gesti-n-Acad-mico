@@ -6,7 +6,7 @@ using entregable_04.Models;
 
 namespace entregable_04.Interfaces
 {
-    public interface ISubjects
+    public interface ISubject
     {
         Guid Id { get; }
         string Name { get; }
