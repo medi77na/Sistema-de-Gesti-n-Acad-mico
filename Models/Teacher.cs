@@ -2,12 +2,11 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using entregable_04.Interfaces;
 using entregable_04.Enums;
 
 namespace entregable_04.Models
 {
-    public class Teacher : Person, ITeacher
+    public class Teacher : Person
     {
         //Attributes
         private double salary { get; set; }
